@@ -26,3 +26,7 @@
 	path = Pipe/IrisBase
 	url = https://github.com/JeroenDStout/Ap-Pipe-IrisBase.git
 	branch = public-develop
+[submodule "Util/Repo"]
+	path = Util/Repo
+	url = https://github.com/JeroenDStout/Ap-Util-Repo.git
+	branch = public-develop
