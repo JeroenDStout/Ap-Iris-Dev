@@ -6,10 +6,17 @@
     { "port-iris" : "3001" },
     { "port-hephaestus" : "3002" }
   ],
+  "groups" : [{
+    "vars" : [
+      { "tmp-web-dir" : "{tmp-dir}/web-iris/" }
+    ],
+    "hubs" : [
+      { "path" : "IrisBase/Web/hub.hep.json" },
+      { "path" : "IrisBase/DevFolder/hub.hep.json" }
+    ]
+  }],
   "hubs" : [
     { "path" : "PipelineBase/DevFolder/hub.hep.json"
-    },
-    { "path" : "IrisBase/DevFolder/hub.hep.json"
     },
     { "path" : "PipelineBase/Credits/collectcredits.hep.json",
       "vars" : [
