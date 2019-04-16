@@ -1,0 +1,20 @@
+{
+  "vars" : [
+    { "base-dir" : "{cur-dir}/../" },
+    { "dev-dir" : "{cur-dir}/-dev" },
+    { "tmp-dir" : "{cur-dir}/-hep-tmp" },
+    { "port-iris" : "3001" },
+    { "port-hephaestus" : "3002" }
+  ],
+  "hubs" : [
+    { "path" : "PipelineBase/DevFolder/hub.hep.json"
+    },
+    { "path" : "IrisBase/DevFolder/hub.hep.json"
+    },
+    { "path" : "PipelineBase/Credits/collectcredits.hep.json",
+      "vars" : [
+        { "tmp-credits-dir" : "{tmp-dir}/credits" }
+      ]
+    }
+  ]
+}
