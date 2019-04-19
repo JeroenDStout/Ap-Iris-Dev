@@ -28,6 +28,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Iris Backend", "..\IrisBase
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Iris Widget", "..\IrisWidget\Visual Studio\Iris Widget.vcxproj", "{3BD2CEF8-F345-4A82-A006-E2BDB6A3ED07}"
 	ProjectSection(ProjectDependencies) = postProject
+		{73FB3815-84FC-41B3-9290-BC5490E22148} = {73FB3815-84FC-41B3-9290-BC5490E22148}
 		{5644BBF8-3CB0-4067-BEE8-C4BA3C2C04F6} = {5644BBF8-3CB0-4067-BEE8-C4BA3C2C04F6}
 	EndProjectSection
 EndProject
