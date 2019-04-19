@@ -34,3 +34,6 @@
 	path = Code/Conduits
 	url = https://github.com/JeroenDStout/Ap-Code-Conduits.git
 	branch = public-develop
+[submodule "Res/Iris"]
+	path = Res/Iris
+	url = https://github.com/JeroenDStout/Ap-Res-Iris.git
