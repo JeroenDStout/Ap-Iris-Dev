@@ -14,13 +14,15 @@
       { "front-src-dir" : "{base-dir}/Code/IrisBase/Pub_ts/iris-front/src/" },
       { "front-build-dir" : "{base-dir}/Code/IrisBase/Pub_ts/iris-front/build/" },
       { "vsproj-dir" : "{base-dir}/Code/IrisBase/Visual Studio/" },
-      { "code-bin-dir" : "{base-dir}/Code/IrisBase/-bin" }
+      { "code-bin-dir" : "{base-dir}/Code/IrisBase/-bin" },
+      { "web-dir" : "{dev-dir}/web" },
+      { "spec-web-dir" : "{web-dir}/iris/" }
     ],
     "hubs" : [
+      { "path" : "IrisBase/Misc/update-favicon.hep.json" },
       { "path" : "IrisBase/Web/web-resources.hep.json" },
       { "path" : "IrisBase/Web/copy-from-irfr-build.hep.json" },
       { "path" : "IrisBase/DevFolder/prepare-exe.hep.json" },
-      { "path" : "IrisBase/DevFolder/update-favicon.hep.json" },
       { "path" : "../Code/IrisBase/copy-ts.hep.json" }
     ]
   },
@@ -30,11 +32,13 @@
       { "file-dir" : "{base-dir}/res/hephaestus/" },
       { "tmp-web-dir" : "{tmp-dir}/web-hephaestus/" },
       { "vsproj-dir" : "{base-dir}/Code/HephaestusBase/Visual Studio/" },
-      { "code-bin-dir" : "{base-dir}/Code/HephaestusBase/-bin" }
+      { "code-bin-dir" : "{base-dir}/Code/HephaestusBase/-bin" },
+      { "web-dir" : "{dev-dir}/web" },
+      { "spec-web-dir" : "{web-dir}/hep/" }
     ],
     "hubs" : [
-      { "path" : "PipelineBase/DevFolder/prepare-exe.hep.json" },
-      { "path" : "PipelineBase/DevFolder/update-favicon.hep.json" }
+      { "path" : "PipelineBase/Misc/update-favicon.hep.json" },
+      { "path" : "PipelineBase/DevFolder/prepare-exe.hep.json" }
     ]
   }],
   "hubs" : [
