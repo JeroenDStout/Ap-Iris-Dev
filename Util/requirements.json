@@ -4,6 +4,7 @@
     ],
     "npm" : [
         { "package" : "typescript" },
+        { "package" : "create-react-app" },
         { "package" : "pnpm" }
     ],
     "pnpm" : [
