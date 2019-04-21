@@ -38,7 +38,8 @@
     ],
     "hubs" : [
       { "path" : "PipelineBase/Misc/update-favicon.hep.json" },
-      { "path" : "PipelineBase/DevFolder/prepare-exe.hep.json" }
+      { "path" : "PipelineBase/DevFolder/prepare-exe.hep.json" },
+      { "path" : "PipelineBase/DevFolder/prepare-iris.hep.json" }
     ]
   }],
   "hubs" : [
