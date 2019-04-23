@@ -35,7 +35,14 @@ echo --
 echo -- Util Fix Submodules
 echo --
 echo.
-python "Repo/util_fixsubmodules.py"
+python "Repo/util_fix_submodules.py"
+
+echo.
+echo --
+echo -- Util Check Submodules
+echo --
+echo.
+python "Repo/util_update_submodules.py"
 
 python "Repo/footer.py"
 
