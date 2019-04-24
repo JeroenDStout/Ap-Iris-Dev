@@ -5,7 +5,8 @@
     "npm" : [
         { "package" : "typescript" },
         { "package" : "create-react-app" },
-        { "package" : "pnpm" }
+        { "package" : "pnpm" },
+        { "package" : "sass" }
     ],
     "pnpm" : [
         { "install" : "Code/IrisBase/Pub_ts/iris-front" },
