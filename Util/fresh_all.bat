@@ -42,7 +42,7 @@ echo --
 echo -- Util Check Submodules
 echo --
 echo.
-python "Repo/util_update_submodules.py"
+python "Repo/util_check_submodules.py"
 
 python "Repo/footer.py"
 
