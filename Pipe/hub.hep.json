@@ -33,13 +33,15 @@
       { "tmp-web-dir" : "{tmp-dir}/web-hephaestus/" },
       { "vsproj-dir" : "{base-dir}/Code/HephaestusBase/Visual Studio/" },
       { "code-bin-dir" : "{base-dir}/Code/HephaestusBase/-bin" },
+      { "data-dir" : "{dev-dir}/Data" },
       { "web-dir" : "{dev-dir}/web" },
       { "spec-web-dir" : "{web-dir}/hep/" }
     ],
     "hubs" : [
       { "path" : "PipelineBase/Misc/update-favicon.hep.json" },
       { "path" : "PipelineBase/DevFolder/prepare-exe.hep.json" },
-      { "path" : "PipelineBase/DevFolder/prepare-iris.hep.json" }
+      { "path" : "PipelineBase/DevFolder/prepare-iris.hep.json" },
+      { "path" : "PipelineBase/Misc/update-ping.hep.json" }
     ]
   }],
   "hubs" : [
