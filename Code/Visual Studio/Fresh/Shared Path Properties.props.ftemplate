@@ -7,7 +7,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>../;../../;../../../../../../External/Json/single_include/;../../../../../../External/Asio/Asio/include/;../../../../../../External/websocketpp/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../;../../;../../../../../../External/Json/single_include/;../../../../../../External/Asio/Asio/include/;../../../../../../External/stduuid/include/;../../../../../../External/websocketpp/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(SolutionDir)/../Conduits/-bin/$(Platform)/$(Configuration)/;$(SolutionDir)/../BlackRoot/-bin/$(Platform)/$(Configuration)/;$(SolutionDir)/../ToolboxBase/-bin/$(Platform)/$(Configuration)/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
