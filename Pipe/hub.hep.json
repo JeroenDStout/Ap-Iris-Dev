@@ -43,6 +43,20 @@
       { "path" : "PipelineBase/DevFolder/prepare-iris.hep.json" },
       { "path" : "PipelineBase/Misc/update-ping.hep.json" }
     ]
+  },
+  {
+    "title" : " ------------------- Demo Clock -------------------- ",
+    "vars" : [
+      { "file-dir" : "{base-dir}/res/democlock/" },
+      { "tmp-web-dir" : "{tmp-dir}/web-democlock/" },
+      { "vsproj-dir" : "{base-dir}/Code/DemoClock/Visual Studio/" },
+      { "code-bin-dir" : "{base-dir}/Code/DemoClock/-bin" },
+      { "web-dir" : "{dev-dir}/web" }
+    ],
+    "hubs" : [
+      { "path" : "DemoClock/Misc/update-favicon.hep.json" },
+      { "path" : "DemoClock/DevFolder/prepare-exe.hep.json" }
+    ]
   }],
   "hubs" : [
     { "path" : "PipelineBase/Credits/collectcredits.hep.json",
