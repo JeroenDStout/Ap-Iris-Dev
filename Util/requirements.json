@@ -10,6 +10,6 @@
     ],
     "pnpm" : [
         { "install" : "Code/IrisBase/Pub_ts/iris-front" },
-        { "install" : "Code/IrisWidget/Pub_ts" }
+        { "install" : "Code/IrisWidget/Pub_ts/Widgets" }
     ]
 }
