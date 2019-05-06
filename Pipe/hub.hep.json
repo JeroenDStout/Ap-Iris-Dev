@@ -15,6 +15,7 @@
       { "front-build-dir" : "{base-dir}/Code/IrisBase/Pub_ts/iris-front/build/" },
       { "vsproj-dir" : "{base-dir}/Code/IrisBase/Visual Studio/" },
       { "code-bin-dir" : "{base-dir}/Code/IrisBase/-bin" },
+      { "widget-js-dir" : "{base-dir}/Code/IrisWidget/-gen_js/widgets/" },
       { "web-dir" : "{dev-dir}/web" },
       { "spec-web-dir" : "{web-dir}/iris/" }
     ],
@@ -22,6 +23,7 @@
       { "path" : "IrisBase/Misc/update-favicon.hep.json" },
       { "path" : "IrisBase/Web/web-resources.hep.json" },
       { "path" : "IrisBase/Web/copy-from-irfr-build.hep.json" },
+      { "path" : "IrisBase/Web/widgets.hep.json" },
       { "path" : "IrisBase/DevFolder/prepare-exe.hep.json" },
       { "path" : "../Code/IrisBase/copy-ts.hep.json" }
     ]
