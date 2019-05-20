@@ -8,10 +8,6 @@
     <_PropertySheetDisplayName>Shared Common Properties</_PropertySheetDisplayName>
   </PropertyGroup>
   <ItemDefinitionGroup>
-    <PreBuildEvent>
-      <Command>cd ../
-create_repo_version.bat "$(ProjectName)"</Command>
-    </PreBuildEvent>
     <ClCompile>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
